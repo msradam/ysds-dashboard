@@ -19,7 +19,7 @@ def format_mechanism_label(mech_key):
 def load_data():
     # Load the CSV file
     try:
-        df = pd.read_csv('data/bill_classifications_full.csv')
+        df = pd.read_csv('bill_classifications_full.csv')
         return df
     except FileNotFoundError:
         st.error("bill_classifications_full.csv not found. Please ensure the data file is in the 'data' directory.")
