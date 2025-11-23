@@ -201,9 +201,10 @@ if not df.empty:
             st.info("No data to display.")
 
 else:
-    st.warning("Please ensure 'bills.csv' is in the directory and contains data.")
+    st.warning("Please ensure 'bill_classifications_full.csv' is in the directory and contains data.")
 
 # --- Footer ---
 st.markdown("---")
 st.caption("Data classification analysis based on state legislation.")
-st.markdown("Original data source: **[Integrity Institute - Technology Policy Tracker](https://www.techpolicytracker.com)**")
+st.caption("Built by Adam Munawar Rahman of Team Hotfix for the MIT Policy Hackathon 2025")
+st.markdown("Original data source: **[Integrity Institute - Technology Policy Tracker](https://www.integrityinstitute.org/legislative-tracker)**")
